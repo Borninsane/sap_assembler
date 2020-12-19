@@ -10,12 +10,12 @@ To get the list of options type "java sasm" without quotes.
 
 You can try writing some assembly language programs using the below mnemonics :)
 
-nop : no operation
-lda : load accumulator from an 8 bit address
-sta : store accumulator to 8bit address
-ldi : load accumulator immidiate with 8bit data
+nop : no operation.
+lda : load accumulator from an 8 bit address.
+sta : store accumulator to 8bit address.
+ldi : load accumulator immidiate with 8bit data.
 addz : add immidiate the data from th address specified after this instructruction.
-jmp : unconditional jump
+jmp : unconditional jump.
 subz : subtract immidiate the data from the address specified after this instructruction.
 adi : add immidiate the data specified after this instructruction.
 subi : subtract immidiate the data from th address specified after this instructruction.
