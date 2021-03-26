@@ -2,7 +2,7 @@
 an assembler for the 8bit breadboard cpu.
 
 An assembler for the 8bit cpu with 256bytes of addressing capability.
-The assembler has two modes, (1)console to file where you write the mnemonics in the console and finaly the console gets terminated by ';' after that a *.o file appears in the current directory which is basically an object file which can only be viewed by a hex editor. (2) a file to file mode where you create a *.asm file and edit it using your editor and finally use the assembler to assemble the code and again an object file generated, which can be opened by a hex editor and you get the opcodes for the program. It also features an hexdump option by which you can use it as a hex viewer. It can dump any file in raw hex code.
+The assembler has two modes, 1 : "console to file"(c2f) where you write the mnemonics in the console and finaly the console gets terminated by ';', after that a "*.o" file appears in the current directory which is basically an object file which can only be viewed by a hex editor. 2 : a "file to file" mode where you create a "*.asm" file and edit it using your editor and finally use the assembler to assemble the code and again an object file generated, which can be opened by a hex editor and you get the opcodes for the program. It also features an hexdump option by which you can use it as a hex viewer. It can dump any file in raw hex code.
 
 The syntax is simple, the instructions are listed below. To comment a line put "$" in starting of the line, to create a label(useful for loops) put a "*" before the label.
 
@@ -10,7 +10,7 @@ To get the list of options type "java sasm" without quotes.
 
 You can try writing some assembly language programs using the below mnemonics :)
 
-nop : no operation.
+nop : no operation.\n
 lda : load accumulator from an 8 bit address.
 sta : store accumulator to 8bit address.
 ldi : load accumulator immidiate with 8bit data.
