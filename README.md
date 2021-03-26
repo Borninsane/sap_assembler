@@ -10,7 +10,7 @@ To get the list of options type "java sasm" without quotes.
 
 You can try writing some assembly language programs using the below mnemonics :)
 
-nop : no operation.\n
+nop : no operation.
 lda : load accumulator from an 8 bit address.
 sta : store accumulator to 8bit address.
 ldi : load accumulator immidiate with 8bit data.
